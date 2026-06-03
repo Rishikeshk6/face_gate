@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+myenv/
+env/
+
+# Models (large binary files — don't push to git)
+models/
+*.pkl
+
+# Dataset (personal face data — never push this)
+dataset/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
